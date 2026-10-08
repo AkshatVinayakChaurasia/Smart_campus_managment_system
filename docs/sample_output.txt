@@ -1,0 +1,161 @@
+=====================================================
+   Integrated Smart Campus Management System
+   DSA-II PBL  |  Loaded: 11 locations, 11 courses, 12 students
+=====================================================
+
+MAIN MENU
+  1. Campus Navigation
+  2. Infrastructure Network Planning
+  3. Course Prerequisite Planner
+  4. Student Records
+  5. Service Requests          [in progress]
+  6. Exam Timetable            [in progress]
+  0. Exit
+Choice: 
+--- Campus Navigation ---
+   1. Main_Gate
+   2. Admin_Block
+   3. Parking
+   4. Academic_Block_A
+   5. Library
+   6. Academic_Block_B
+   7. Computer_Lab
+   8. Auditorium
+   9. Cafeteria
+  10. Sports_Complex
+  11. Hostel
+From (number): To   (number): 1) Shortest distance (Dijkstra)  2) Fewest stops (BFS)  3) Explore from source (BFS/DFS):   Route: Main_Gate -> Admin_Block -> Academic_Block_A -> Academic_Block_B -> Computer_Lab
+  Total: 430 metres
+
+MAIN MENU
+  1. Campus Navigation
+  2. Infrastructure Network Planning
+  3. Course Prerequisite Planner
+  4. Student Records
+  5. Service Requests          [in progress]
+  6. Exam Timetable            [in progress]
+  0. Exit
+Choice: 
+--- Infrastructure Network Planning (Kruskal MST) ---
+  Academic_Block_B   - Computer_Lab         70 m
+  Main_Gate          - Parking              80 m
+  Computer_Lab       - Auditorium           85 m
+  Academic_Block_A   - Academic_Block_B     90 m
+  Hostel             - Sports_Complex      100 m
+  Academic_Block_A   - Library             110 m
+  Admin_Block        - Academic_Block_A    120 m
+  Library            - Cafeteria           130 m
+  Main_Gate          - Admin_Block         150 m
+  Cafeteria          - Hostel              180 m
+  Minimum total cable length: 1115 m
+
+MAIN MENU
+  1. Campus Navigation
+  2. Infrastructure Network Planning
+  3. Course Prerequisite Planner
+  4. Student Records
+  5. Service Requests          [in progress]
+  6. Exam Timetable            [in progress]
+  0. Exit
+Choice: 
+--- Course Prerequisite Planner (Topological Sort) ---
+  Semester 1: MA101  CS101  CS102  
+  Semester 2: MA102  CS203  CS201  CS202  
+  Semester 3: CS301  CS303  CS302  
+  Semester 4: CS401  
+
+MAIN MENU
+  1. Campus Navigation
+  2. Infrastructure Network Planning
+  3. Course Prerequisite Planner
+  4. Student Records
+  5. Service Requests          [in progress]
+  6. Exam Timetable            [in progress]
+  0. Exit
+Choice: 
+--- Student Records (Hash Table) ---
+  1. Search by roll no.
+  2. Add student
+  3. Delete student
+  4. List all
+  5. Table statistics
+  0. Back
+Choice: Roll no.:   2501330100004 | Ananya Singh | CSE | Year 2 | CGPA 8.71
+
+--- Student Records (Hash Table) ---
+  1. Search by roll no.
+  2. Add student
+  3. Delete student
+  4. List all
+  5. Table statistics
+  0. Back
+Choice:   Records: 12  Buckets: 101  Load factor: 0.12  Longest chain: 1
+
+--- Student Records (Hash Table) ---
+  1. Search by roll no.
+  2. Add student
+  3. Delete student
+  4. List all
+  5. Table statistics
+  0. Back
+Choice: 
+MAIN MENU
+  1. Campus Navigation
+  2. Infrastructure Network Planning
+  3. Course Prerequisite Planner
+  4. Student Records
+  5. Service Requests          [in progress]
+  6. Exam Timetable            [in progress]
+  0. Exit
+Choice: 
+--- Service Requests (Min-Heap)  [in progress] ---
+  1. Submit request
+  2. View most urgent
+  3. Process most urgent
+  0. Back
+Choice: Priority (1 = emergency ... 5 = low): Location: Description:   Request #1 submitted. Pending: 1
+
+--- Service Requests (Min-Heap)  [in progress] ---
+  1. Submit request
+  2. View most urgent
+  3. Process most urgent
+  0. Back
+Choice: Priority (1 = emergency ... 5 = low): Location: Description:   Request #2 submitted. Pending: 2
+
+--- Service Requests (Min-Heap)  [in progress] ---
+  1. Submit request
+  2. View most urgent
+  3. Process most urgent
+  0. Back
+Choice:   Processed: #1 [P1] Hostel - Water leakage
+
+--- Service Requests (Min-Heap)  [in progress] ---
+  1. Submit request
+  2. View most urgent
+  3. Process most urgent
+  0. Back
+Choice: 
+MAIN MENU
+  1. Campus Navigation
+  2. Infrastructure Network Planning
+  3. Course Prerequisite Planner
+  4. Student Records
+  5. Service Requests          [in progress]
+  6. Exam Timetable            [in progress]
+  0. Exit
+Choice: 
+--- Exam Timetable (Graph Colouring)  [in progress] ---
+  Slot 1: CS301  CS202  MA102  
+  Slot 2: CS302  CS401  CS203  
+  Slot 3: CS303  CS201  
+  Slots used: 3   Clash free: yes
+
+MAIN MENU
+  1. Campus Navigation
+  2. Infrastructure Network Planning
+  3. Course Prerequisite Planner
+  4. Student Records
+  5. Service Requests          [in progress]
+  6. Exam Timetable            [in progress]
+  0. Exit
+Choice: Goodbye!
