@@ -7,7 +7,7 @@ instead of running isolated systems for academics, administration, facilities an
 - **Problem statement:** Design an integrated smart campus platform that manages institutional data efficiently, optimises operations and improves the student experience through intelligent decision-making.
 - **SDG:** 4 – Quality Education
 - **Team:** Solo (Akshat Chaurasia)
-- **Status:** 🚧 work in progress – about **55 %** complete (Review 2)
+- **Status:** 🚧 work in progress – about **65 %** complete (Review 2)
 
 ## Architecture
 
